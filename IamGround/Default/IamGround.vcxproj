@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{adc5a77f-b777-4741-881c-4c411140e365}</ProjectGuid>
+    <RootNamespace>IamGround</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_TOOL;_DEBUG;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Imgui/;../Private/;../Public/;../Backend/;../../EngineSDK/Inc/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_TOOL;NDEBUG;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Imgui/;../Private/;../Public/;../Backend/;../../EngineSDK/Inc/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Backend\imgui_impl_dx11.h" />
+    <ClInclude Include="..\Backend\imgui_impl_win32.h" />
+    <ClInclude Include="..\Imgui\imconfig.h" />
+    <ClInclude Include="..\Imgui\imgui.h" />
+    <ClInclude Include="..\Imgui\imgui_internal.h" />
+    <ClInclude Include="..\Imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\Imgui\imstb_textedit.h" />
+    <ClInclude Include="..\Imgui\imstb_truetype.h" />
+    <ClInclude Include="..\Public\Archillager.h" />
+    <ClInclude Include="..\Public\BackGround.h" />
+    <ClInclude Include="..\Public\Chair.h" />
+    <ClInclude Include="..\Public\Creeper.h" />
+    <ClInclude Include="..\Public\Door.h" />
+    <ClInclude Include="..\Public\Enderman.h" />
+    <ClInclude Include="..\Public\Environment.h" />
+    <ClInclude Include="..\Public\Fiona.h" />
+    <ClInclude Include="..\Public\ForkLift.h" />
+    <ClInclude Include="..\Public\FreeCamera.h" />
+    <ClInclude Include="..\Public\Geomancer.h" />
+    <ClInclude Include="..\Public\Golem.h" />
+    <ClInclude Include="..\Public\HeartOfEnder.h" />
+    <ClInclude Include="..\Public\Husk.h" />
+    <ClInclude Include="..\Public\ImguiMgr.h" />
+    <ClInclude Include="..\Public\ItemBox.h" />
+    <ClInclude Include="..\Public\Level_Effect.h" />
+    <ClInclude Include="..\Public\Level_GamePlay.h" />
+    <ClInclude Include="..\Public\Level_Loading.h" />
+    <ClInclude Include="..\Public\Level_Logo.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\Public\MainForm.h" />
+    <ClInclude Include="..\Public\Map.h" />
+    <ClInclude Include="..\Public\MapTest.h" />
+    <ClInclude Include="..\Public\Map_Flat.h" />
+    <ClInclude Include="..\Public\Monster.h" />
+    <ClInclude Include="..\Public\NPC.h" />
+    <ClInclude Include="..\public\ParticleMesh.h" />
+    <ClInclude Include="..\Public\Particle_Point.h" />
+    <ClInclude Include="..\Public\Particle_Rect.h" />
+    <ClInclude Include="..\Public\Player.h" />
+    <ClInclude Include="..\Public\QuarterCamera.h" />
+    <ClInclude Include="..\Public\RedstoneBoss.h" />
+    <ClInclude Include="..\Public\Skeleton.h" />
+    <ClInclude Include="..\Public\Skeleton_Horse.h" />
+    <ClInclude Include="..\Public\Terrain.h" />
+    <ClInclude Include="..\Public\Tool_Define.h" />
+    <ClInclude Include="..\Public\Vindicator.h" />
+    <ClInclude Include="..\Public\Zombie.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="IamGround.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Backend\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Backend\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Imgui\imgui.cpp" />
+    <ClCompile Include="..\Imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\Imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\Private\Archillager.cpp" />
+    <ClCompile Include="..\Private\BackGround.cpp" />
+    <ClCompile Include="..\Private\Chair.cpp" />
+    <ClCompile Include="..\Private\Creeper.cpp" />
+    <ClCompile Include="..\Private\Door.cpp" />
+    <ClCompile Include="..\Private\Enderman.cpp" />
+    <ClCompile Include="..\Private\Environment.cpp" />
+    <ClCompile Include="..\Private\Fiona.cpp" />
+    <ClCompile Include="..\Private\ForkLift.cpp" />
+    <ClCompile Include="..\Private\FreeCamera.cpp" />
+    <ClCompile Include="..\Private\Geomancer.cpp" />
+    <ClCompile Include="..\Private\Golem.cpp" />
+    <ClCompile Include="..\Private\HeartOfEnder.cpp" />
+    <ClCompile Include="..\Private\Husk.cpp" />
+    <ClCompile Include="..\Private\ImguiMgr.cpp" />
+    <ClCompile Include="..\Private\ItemBox.cpp" />
+    <ClCompile Include="..\Private\Level_Effect.cpp" />
+    <ClCompile Include="..\Private\Level_GamePlay.cpp" />
+    <ClCompile Include="..\Private\Level_Loading.cpp" />
+    <ClCompile Include="..\Private\Level_Logo.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\Private\MainForm.cpp" />
+    <ClCompile Include="..\Private\Map.cpp" />
+    <ClCompile Include="..\Private\MapTest.cpp" />
+    <ClCompile Include="..\Private\Map_Flat.cpp" />
+    <ClCompile Include="..\Private\Monster.cpp" />
+    <ClCompile Include="..\Private\NPC.cpp" />
+    <ClCompile Include="..\private\ParticleMesh.cpp" />
+    <ClCompile Include="..\Private\Particle_Point.cpp" />
+    <ClCompile Include="..\Private\Particle_Rect.cpp" />
+    <ClCompile Include="..\Private\Player.cpp" />
+    <ClCompile Include="..\Private\QuarterCamera.cpp" />
+    <ClCompile Include="..\Private\RedstoneBoss.cpp" />
+    <ClCompile Include="..\Private\Skeleton.cpp" />
+    <ClCompile Include="..\Private\Skeleton_Horse.cpp" />
+    <ClCompile Include="..\Private\Terrain.cpp" />
+    <ClCompile Include="..\Private\Vindicator.cpp" />
+    <ClCompile Include="..\Private\Zombie.cpp" />
+    <ClCompile Include="IamGround.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IamGround.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IamGround.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Imgui\.editorconfig" />
+    <None Include="..\Imgui\.gitattributes" />
+    <None Include="..\Imgui\.gitignore" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

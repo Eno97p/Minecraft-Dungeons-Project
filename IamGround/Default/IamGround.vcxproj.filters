@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{14e2299f-ac40-4880-801d-1c157761f216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Imgui">
+      <UniqueIdentifier>{799fb67f-ff91-473c-919b-8a60a345675b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Imgui\BackEnd">
+      <UniqueIdentifier>{e55772e4-0ad1-4b63-8aef-e5bf61e4b3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{1cc79545-aa8a-46d1-b0dc-8dcfac02df95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainForm">
+      <UniqueIdentifier>{e3840b2c-2657-4020-8b14-267a3c9dcab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{964152aa-6176-4e41-ae28-e972e5e5ab78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{b2da92b0-50ef-4154-8624-492b07f71aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\Logo">
+      <UniqueIdentifier>{65212c42-0a61-421e-966f-564253304320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\GamePlay">
+      <UniqueIdentifier>{8bdf5f3d-7758-4e4a-9408-50a63a440ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\Loading">
+      <UniqueIdentifier>{5d6cdada-8320-4632-9e6e-1bd4bd6c8d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\Loading\Loader">
+      <UniqueIdentifier>{97673a45-81ec-40ff-aaef-a51439556bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Terrain">
+      <UniqueIdentifier>{cd784e5e-dc8a-40b2-892c-9263b733c46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImguiMgr">
+      <UniqueIdentifier>{e965bd10-149d-48e5-91c9-e89d1c69f5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\00. BackGround">
+      <UniqueIdentifier>{5d3aa48d-fff5-495f-b8f1-fb824fc0a762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\01. Camera">
+      <UniqueIdentifier>{4d1df834-1c46-48dc-9334-29bede2c7e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster">
+      <UniqueIdentifier>{549c87e6-e623-45b4-9728-f5a6b79354c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\00. Creeper">
+      <UniqueIdentifier>{0693723b-b51a-43f9-a6e9-a33a9490b3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\01. Zombie">
+      <UniqueIdentifier>{0e7f88a3-4c8c-44df-852b-74131ac2075c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\03. Environment">
+      <UniqueIdentifier>{4fef1319-6d73-44dc-8982-fc2d9051df5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\04. MapModel">
+      <UniqueIdentifier>{f4dc886c-76b4-4564-b52b-89e9b1f007cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\04. MapModel\00. Maptest">
+      <UniqueIdentifier>{847b3d0b-4777-44de-b8ab-44f97b95397a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\99. ForkLift">
+      <UniqueIdentifier>{c158e0e7-72e5-483e-9b34-343859539554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\98. Fiona">
+      <UniqueIdentifier>{71a979ab-7c13-452d-a9b8-180180ee32dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\02. Skeleton">
+      <UniqueIdentifier>{6861ce7f-afaa-4681-b519-3a2de62c096b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\03. Skeleton_Horse">
+      <UniqueIdentifier>{429576ef-8dfe-447f-9589-e55ac8056f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\999. Player">
+      <UniqueIdentifier>{0391560b-6689-4b77-ae3b-71c901f83702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\04. Enderman">
+      <UniqueIdentifier>{d0040f6b-c494-4de4-9eda-2103687c3ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\03. Environment\NPC">
+      <UniqueIdentifier>{0f3f922c-4c32-461b-8f4d-bb854ca93453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\05. Golem">
+      <UniqueIdentifier>{bc588084-12d8-43e9-bc52-541633dd7ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\06. RedstoneBoss">
+      <UniqueIdentifier>{502e1c09-0663-4309-b55c-db2370d29253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\07. Geomancer">
+      <UniqueIdentifier>{bfbf8deb-1e7d-419e-a03b-7b79bfcd6011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\08. Vindicator">
+      <UniqueIdentifier>{33270917-6f89-472b-90c4-6cd785b8837e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\10. HeartOfEnder">
+      <UniqueIdentifier>{ff038cfc-a208-4ef2-a07f-1045ef019f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\11. Husk">
+      <UniqueIdentifier>{a018055f-2a58-479b-bd78-b10b4dd4b3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\Effect">
+      <UniqueIdentifier>{b23552f2-cb37-4b82-b4f3-86b38a716ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\04. MapModel\01. FlatMap">
+      <UniqueIdentifier>{e93e64fa-8b14-4526-bbed-c712433fa55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\09. Archillager">
+      <UniqueIdentifier>{d65170ae-8784-4af5-9303-6fac285a69ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\01. Camera\Free">
+      <UniqueIdentifier>{9aeb79e0-3e39-4446-b0d1-85fdf84a1635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\01. Camera\Quarter">
+      <UniqueIdentifier>{8474875f-4612-4ffb-8292-227ebeaeacf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Particle">
+      <UniqueIdentifier>{c4f5cb21-275c-4280-9a3a-fb865b69b1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Particle\Mesh">
+      <UniqueIdentifier>{a6a70366-f686-47dd-b3e4-638cdfaff369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Particle\Rect">
+      <UniqueIdentifier>{7add664c-1b00-44f8-ba5e-d9557b4a10d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\05. Particle\Point">
+      <UniqueIdentifier>{2974893d-4b20-4b3c-8bdf-746f6033b7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\22. ItemBox">
+      <UniqueIdentifier>{a6958182-c20c-4e4c-80ff-da9a777b9286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\23. Door">
+      <UniqueIdentifier>{d34602de-887d-423a-aa7a-2ca5df19c6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02. Monster\33. Chair">
+      <UniqueIdentifier>{3a817015-3975-4f49-991c-c2d025957245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="IamGround.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imconfig.h">
+      <Filter>99. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imgui.h">
+      <Filter>99. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imgui_internal.h">
+      <Filter>99. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imstb_rectpack.h">
+      <Filter>99. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imstb_textedit.h">
+      <Filter>99. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Imgui\imstb_truetype.h">
+      <Filter>99. Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Backend\imgui_impl_dx11.h">
+      <Filter>99. Imgui\BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Backend\imgui_impl_win32.h">
+      <Filter>99. Imgui\BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tool_Define.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainForm.h">
+      <Filter>MainForm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>Level\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>Level\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>Level\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>Object\00. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>Object\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiMgr.h">
+      <Filter>ImguiMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Creeper.h">
+      <Filter>Object\02. Monster\00. Creeper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zombie.h">
+      <Filter>Object\02. Monster\01. Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map.h">
+      <Filter>Object\04. MapModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapTest.h">
+      <Filter>Object\04. MapModel\00. Maptest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkLift.h">
+      <Filter>Object\02. Monster\99. ForkLift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fiona.h">
+      <Filter>Object\02. Monster\98. Fiona</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Skeleton.h">
+      <Filter>Object\02. Monster\02. Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Skeleton_Horse.h">
+      <Filter>Object\02. Monster\03. Skeleton_Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>Object\02. Monster\999. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enderman.h">
+      <Filter>Object\02. Monster\04. Enderman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Environment.h">
+      <Filter>Object\03. Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NPC.h">
+      <Filter>Object\03. Environment\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Golem.h">
+      <Filter>Object\02. Monster\05. Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedstoneBoss.h">
+      <Filter>Object\02. Monster\06. RedstoneBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Geomancer.h">
+      <Filter>Object\02. Monster\07. Geomancer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Vindicator.h">
+      <Filter>Object\02. Monster\08. Vindicator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Archillager.h">
+      <Filter>Object\02. Monster\09. Archillager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HeartOfEnder.h">
+      <Filter>Object\02. Monster\10. HeartOfEnder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Husk.h">
+      <Filter>Object\02. Monster\11. Husk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Effect.h">
+      <Filter>Level\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>Level\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Map_Flat.h">
+      <Filter>Object\04. MapModel\01. FlatMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FreeCamera.h">
+      <Filter>Object\01. Camera\Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuarterCamera.h">
+      <Filter>Object\01. Camera\Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ParticleMesh.h">
+      <Filter>Object\05. Particle\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Point.h">
+      <Filter>Object\05. Particle\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Rect.h">
+      <Filter>Object\05. Particle\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemBox.h">
+      <Filter>Object\02. Monster\22. ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Door.h">
+      <Filter>Object\02. Monster\23. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chair.h">
+      <Filter>Object\02. Monster\33. Chair</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IamGround.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IamGround.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui.cpp">
+      <Filter>99. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_demo.cpp">
+      <Filter>99. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_draw.cpp">
+      <Filter>99. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_tables.cpp">
+      <Filter>99. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_widgets.cpp">
+      <Filter>99. Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Backend\imgui_impl_dx11.cpp">
+      <Filter>99. Imgui\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Backend\imgui_impl_win32.cpp">
+      <Filter>99. Imgui\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainForm.cpp">
+      <Filter>MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>Level\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>Level\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>Level\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>Level\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>Object\00. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>Object\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiMgr.cpp">
+      <Filter>ImguiMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Creeper.cpp">
+      <Filter>Object\02. Monster\00. Creeper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zombie.cpp">
+      <Filter>Object\02. Monster\01. Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map.cpp">
+      <Filter>Object\04. MapModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapTest.cpp">
+      <Filter>Object\04. MapModel\00. Maptest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkLift.cpp">
+      <Filter>Object\02. Monster\99. ForkLift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fiona.cpp">
+      <Filter>Object\02. Monster\98. Fiona</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Skeleton.cpp">
+      <Filter>Object\02. Monster\02. Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Skeleton_Horse.cpp">
+      <Filter>Object\02. Monster\03. Skeleton_Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>Object\02. Monster\999. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enderman.cpp">
+      <Filter>Object\02. Monster\04. Enderman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Environment.cpp">
+      <Filter>Object\03. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NPC.cpp">
+      <Filter>Object\03. Environment\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Golem.cpp">
+      <Filter>Object\02. Monster\05. Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedstoneBoss.cpp">
+      <Filter>Object\02. Monster\06. RedstoneBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Geomancer.cpp">
+      <Filter>Object\02. Monster\07. Geomancer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Vindicator.cpp">
+      <Filter>Object\02. Monster\08. Vindicator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Archillager.cpp">
+      <Filter>Object\02. Monster\09. Archillager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HeartOfEnder.cpp">
+      <Filter>Object\02. Monster\10. HeartOfEnder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Husk.cpp">
+      <Filter>Object\02. Monster\11. Husk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Effect.cpp">
+      <Filter>Level\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Map_Flat.cpp">
+      <Filter>Object\04. MapModel\01. FlatMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuarterCamera.cpp">
+      <Filter>Object\01. Camera\Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FreeCamera.cpp">
+      <Filter>Object\01. Camera\Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ParticleMesh.cpp">
+      <Filter>Object\05. Particle\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Point.cpp">
+      <Filter>Object\05. Particle\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Rect.cpp">
+      <Filter>Object\05. Particle\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemBox.cpp">
+      <Filter>Object\02. Monster\22. ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Door.cpp">
+      <Filter>Object\02. Monster\23. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Chair.cpp">
+      <Filter>Object\02. Monster\33. Chair</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IamGround.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Imgui\.editorconfig">
+      <Filter>99. Imgui</Filter>
+    </None>
+    <None Include="..\Imgui\.gitattributes">
+      <Filter>99. Imgui</Filter>
+    </None>
+    <None Include="..\Imgui\.gitignore">
+      <Filter>99. Imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
